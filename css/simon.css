@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+#gameBoard {
+    margin-top: 50px;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    opacity: .6;
+    border: 1px solid black;
+    box-shadow: 0 0 0;
+}
+
+#red {
+    background-color: red;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
+}
